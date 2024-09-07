@@ -39,8 +39,6 @@ export const Game = () => {
     );
 
     return (
-        <>
-            <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} history={historyWrapper} />
-        </>
+        <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} history={historyWrapper} />
     );
 };
